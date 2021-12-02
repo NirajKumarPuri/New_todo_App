@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: darkslateblue;
+}
+.content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.inputbox {
+  width: 100%;
+  position: relative;
+  /* display: flex; */
+  /* background-color: white; */
+}
+.input {
+  width: 100%;
+  height: 24px;
+  border: none;
+}
+.buttonbox {
+  width: 30%;
+  margin-top: 40px;
+}
+.button {
+  width: 100%;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listbox {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.headertext {
+  margin: 0px;
+  padding: 5px;
+  font-size: 16px;
+  width: 40%;
+}
+
+.iconbox {
+  width: 10%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
